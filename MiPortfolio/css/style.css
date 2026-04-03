@@ -1,0 +1,99 @@
+/* Fuente global */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Nav */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #444;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: #ff9800;
+}
+
+/* Tarjetas */
+.tarjetas-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem;
+}
+.tarjeta {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+/* Habilidades */
+#habilidades ul {
+  list-style: square;
+  margin: 1rem;
+}
+
+/* Películas */
+.peliculas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem;
+}
+.pelicula img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+form input, form button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #ff9800;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
